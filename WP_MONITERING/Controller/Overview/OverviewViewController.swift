@@ -20,12 +20,13 @@ class OverviewViewController: BaseViewController {
         navBarView.layer.maskedCorners = [.layerMinXMaxYCorner, .layerMaxXMaxYCorner]
     }
     
+    // Tap will lead to settings
     @IBAction func settingBtnTapped(_ sender: Any) {
         let vc = Utilities.shared.getViewController(identifier: "SettingsViewController", storyboardType: .main)
         super.setRootViewController(vc)
     }
     
-    
+    // When tapp it will link to the security page
     @IBAction func dangerDetailTapped(_ sender:UIButton){
         let vc = Utilities.shared.getViewController(identifier: "SecuirtyViewController", storyboardType: .main)
         super.setRootViewController(vc)

@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  WP_MONITERING
+//  WP MONITORING
 //
-//  Created by Mike van Wijnen on 30/10/2022.
+//  Created by Mike van Wijnen
 //
 
 import UIKit

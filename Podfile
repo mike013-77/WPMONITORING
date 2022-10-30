@@ -6,5 +6,7 @@ target 'WP_MONITERING' do
   use_frameworks!
 
   # Pods for WP_MONITERING
+  pod 'SevenSwitch'
+  # giving multiple options for switches (library for switches)
 
 end

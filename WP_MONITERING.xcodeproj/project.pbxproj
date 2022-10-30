@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -195,6 +195,7 @@
 				4A7D2525290EBC3900280319 /* Sources */,
 				4A7D2526290EBC3900280319 /* Frameworks */,
 				4A7D2527290EBC3900280319 /* Resources */,
+				7406749F13178A1988FE4F3F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -221,7 +222,7 @@
 				};
 			};
 			buildConfigurationList = 4A7D2524290EBC3900280319 /* Build configuration list for PBXProject "WP_MONITERING" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -252,6 +253,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		7406749F13178A1988FE4F3F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WP_MONITERING/Pods-WP_MONITERING-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WP_MONITERING/Pods-WP_MONITERING-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WP_MONITERING/Pods-WP_MONITERING-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		E4C3B2353F58FC6EAEE08127 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

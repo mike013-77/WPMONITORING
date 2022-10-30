@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "703CD5A127D14CE9BED130C0E472EA03"
-               BuildableName = "Pods_WP_MONITERING.framework"
-               BlueprintName = "Pods-WP_MONITERING"
+               BlueprintIdentifier = "FFE3757CA89C29CEAA2E8EE48275CBDF"
+               BuildableName = "SevenSwitch.framework"
+               BlueprintName = "SevenSwitch"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

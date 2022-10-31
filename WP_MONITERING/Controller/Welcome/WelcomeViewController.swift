@@ -15,6 +15,7 @@ class WelcomeViewController: BaseViewController {
         // Do any additional setup after loading the view.
     }
     
+    // Tap will link to overview page from start page
     @IBAction func startBtnTapped(_ sender: UIButton) {
         let vc = Utilities.shared.getViewController(identifier: "OverviewViewController", storyboardType: .main)
         super.setRootViewController(vc)
